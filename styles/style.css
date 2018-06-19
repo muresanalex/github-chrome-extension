@@ -1,0 +1,19 @@
+.wrapper {
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0366d6;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+h3 {
+    font-size: 13px;
+    margin: 0 0 20px;
+}

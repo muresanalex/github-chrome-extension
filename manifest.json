@@ -1,0 +1,14 @@
+{
+    "name": "Github profile details",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/github128.png"
+    },
+    "content_scripts": [ {
+        "matches": ["*://*.github.com/*"],
+        "js": ["scripts/content.js"]
+    } ],
+    "permissions": [ "activeTab" ]
+}
